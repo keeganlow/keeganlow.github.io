@@ -128,33 +128,50 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
-.post pre {
+article {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+article h2 {
+  font-family: 'Bitter', serif;
+  /*padding-bottom: 10px;*/
+  font-size: 40px;
+  margin-top: 50px;
+  padding: 15px 0;
+
+  border-top: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #f4f4f4;*/
+}
+
+article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-.post ul, .post ol {
+article ul, article ol {
   margin-left: 1.35em;
 }
 
-.post code {
+article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-.post pre code {
+article pre code {
   border: none;
 }
 
 /* terminal */
-.post pre.terminal {
+article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-.post pre.terminal code {
+article pre.terminal code {
   background-color: #333;
 }
