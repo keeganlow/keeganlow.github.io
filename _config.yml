@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://keeganlow.herokuapp.com
+url: keegan.lowenste.in
 title: Refactor
-subtitle: The personal blog of Keegan Lowenstein
-author: Keegan Lowenstein
+subtitle: On Code Quality, Performance, & Fitness
+author: Keegan
 simple_search: http://google.com/search
 description:
 

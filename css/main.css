@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+h1 { font-size: 2em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -56,16 +57,19 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
+  /*font-size: 115%;*/
+  /*text-align: justify;*/
+  /*width: 42em;*/
+  /*margin: 3em auto 2em;*/
+  /*line-height: 1.5em;*/
+}
+
+.singleColumn {
   font-size: 115%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
-}
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .title {
@@ -81,6 +85,11 @@ a:visited { color: #a0a; }
   color: #000;
 }
 
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
@@ -88,6 +97,15 @@ a:visited { color: #a0a; }
 
 .header a.extra:hover {
   color: #000;
+}
+
+.header h1 {
+  margin-bottom: 0.4em;
+}
+
+.header {
+  padding: 2em 0;
+  margin-bottom: 2em;
 }
 
 .meta {
@@ -134,14 +152,17 @@ article {
   line-height: 1.4em;
 }
 
-article h2 {
+h1, h2 {
   font-family: 'Bitter', serif;
-  /*padding-bottom: 10px;*/
+}
+
+h1 { font-size: 40px; }
+
+article h2 {
   font-size: 40px;
-  margin-top: 50px;
   padding: 15px 0;
 
-  border-top: 1px solid #e5e5e5;
+  /*border-top: 1px solid #e5e5e5;*/
   /*border-bottom: 1px solid #f4f4f4;*/
 }
 
