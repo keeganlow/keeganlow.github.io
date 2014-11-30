@@ -17,6 +17,7 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  margin: 0 0 40px; /* footer height */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,9 +27,9 @@ h1 { margin-bottom: 1em; }
 h1 { font-size: 2em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #74BA7E; text-decoration: none; }
+a:hover   { color: #74BA7E; }
+a:visited { color: #74BA7E; }
 
 /*****************************************************************************/
 /*
@@ -62,6 +63,7 @@ a:visited { color: #a0a; }
   /*width: 42em;*/
   /*margin: 3em auto 2em;*/
   /*line-height: 1.5em;*/
+  background: white;
 }
 
 .singleColumn {
@@ -78,11 +80,10 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  color: #a00;
+  color: rgba(256, 256, 256, 0.9);
 }
 
 .title a:hover {
-  color: #000;
 }
 
 .header a {
@@ -103,40 +104,52 @@ a:visited { color: #a0a; }
   margin-bottom: 0.4em;
 }
 
+.header h2 {
+  /*border: 1px white solid;*/
+  /*border-width: 1px 0;*/
+}
+
 .header {
   padding: 2em 0;
   margin-bottom: 2em;
+  background-image: url('/shattered-island.gif');
+  background-repeat: repeat;
+  color: #fff;
 }
 
 .meta {
   color: #aaa;
 }
 
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.footer, .push {
+  height: 4em;
+}
+
 .footer {
   font-size: 80%;
-  color: #666;
+  color: #ccc;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  background-image: url('/shattered-island.gif');
+  background-repeat: repeat;
+  padding: 20px;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
+.footer ul {
+  width: 42em;
+  margin: 0 auto;
 }
 
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
+.footer li {
+  display: inline;
+  padding: 0 30px;
 }
 
 /*****************************************************************************/
@@ -168,22 +181,30 @@ article h2 {
 
 article pre {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  background-color: #333;
+  padding: 0.3em 0.4em;
 }
 
 article ul, article ol {
   margin-left: 1.35em;
 }
 
+/*NOTE: this is for inline snippets*/
 article code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+  line-height: 20px;
+  /*border: 1px solid #ddd;*/
+  font-size:15px;
+  position: relative; top: -2px; /* seems to line up better - sorry */
+  background-color: #333;
+  border-radius: 5px;
+  color: #d0d0d0;
+  padding: 0.1em 0.2em;
 }
 
 article pre code {
+  font-size: 15px;
   border: none;
+  padding: 0 .2em;
 }
 
 /* terminal */
