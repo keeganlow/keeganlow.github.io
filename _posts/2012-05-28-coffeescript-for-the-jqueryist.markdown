@@ -3,7 +3,6 @@ layout: post
 title: "CoffeeScript for the jQueryist"
 date: 2012-05-28 00:19
 comments: true
-categories: [CoffeeScript, Javascript, jQuery]
 ---
 
 In this post we'll look at some examples of how to use [CoffeeScript](http://coffeescript.org/) to perform common tasks with jQuery.
