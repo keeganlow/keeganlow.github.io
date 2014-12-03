@@ -3,7 +3,6 @@ layout: post
 title: "Why Should I Use Tmux?"
 date: 2014-01-07 22:00
 comments: true
-categories: [vim, tmux, ruby, rails, testing]
 ---
 
 ## TL:DR
@@ -40,7 +39,7 @@ and refining a workflow with tmux at its core, I can safely say **tmux can do a 
 * I now have 1 command that launches *everything* I need to start writing code: vim, terminal, local server, REPL, etc.
 ...
 
-## Mouse free copy/paste
+## Mouse-free copy/paste
 
 I need to say this up front: if you don't grok vi motions, this feature is going
 to be rather confounding. If you aren't comfortable with vi, tmux's copy mode 

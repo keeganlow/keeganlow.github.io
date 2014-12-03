@@ -171,11 +171,17 @@ h1, h2 {
 
 h1 { font-size: 40px; }
 
-article h2 {
-  font-size: 40px;
-  padding: 15px 0;
+.singleColumn h1 {
+  text-align: center;
+}
 
-  /*border-top: 1px solid #e5e5e5;*/
+article h2 {
+  font-size: 30px;
+  line-height: 40px;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 30px;
+
   /*border-bottom: 1px solid #f4f4f4;*/
 }
 
